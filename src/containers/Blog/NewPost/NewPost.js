@@ -28,6 +28,7 @@ class NewPost extends Component {
     }
 
     componentDidMount(){
+        //If Inauth (alternative approach) this.props.history.replace('/posts/')
         console.log(this.props);
     }
 
